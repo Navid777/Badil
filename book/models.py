@@ -32,7 +32,7 @@ class Book(models.Model):
     miniDescription = models.CharField(max_length=300)
     isPublished = models.BooleanField()
     printNo = models.IntegerField()
-    picture = models.FileField(upload_to='media/', null=True, blank=True)
+    picture = models.FileField(upload_to=settings.MEDIA_URL, null=True, blank=True)
 
     def __unicode__(self):
         return self.title
