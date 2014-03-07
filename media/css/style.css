@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: white;
+    font-family: arial, sans-serif;
+    direction: rtl;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+div#container {
+    position: relative;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+}
+
+div#top-header {
+    height: 140px;
+    background: #1E0F44;
+}
+
+div#search-bar {
+    height: 35px;
+    background: #820F19;
+}
+
+div#menu-bar {
+    height: 25px;
+    background: #1E0F44;
+}
+
+div#content {
+    background: white;
+    padding-bottom: 60px;
+}
+
+div#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #1E0F44;
+    height: 60px;
+}

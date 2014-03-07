@@ -1,5 +1,7 @@
 from django.conf.urls import patterns, include, url
 from book.views import *
+from django.conf.urls.static import static
+from django.conf import settings
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -22,3 +24,7 @@ urlpatterns = patterns('',
                        url(r'^bookBySubject/(?P<id>\d{1})/$', books_by_subject),
                        url(r'^unpublishedBySubject/(?P<id>\d{1})/$', unpublished_books_by_subject),
 )
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
