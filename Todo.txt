@@ -1,5 +1,12 @@
 #todo :
-#    return unpublished books                       DONE
-#    return books by first character
+#    return unpublished books                                    DONE
+#    return books by first character                             DONE
 #    show unpublished books nicely
+#    return persons that published a book by first character     DONE
+#    return books by subject                                     DONE
+#    create 'News' Class                                         DONE
+#    return unpublished books by subjects                        DONE
+#    ask if books returned by first char should be published
+
+
 

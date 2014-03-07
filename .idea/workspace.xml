@@ -26,7 +26,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="78" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="714">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -35,10 +35,17 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#26#62#0" expanded="true" />
-              </folding>
+            <state line="9" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.22972973" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +53,7 @@
       <file leaf-file-name="Todo.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="3" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -55,10 +62,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Badil/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="41" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="20" column="17" selection-start="789" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="476">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,12 +78,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/book/admin.py" />
-        <option value="$PROJECT_DIR$/book/models.py" />
         <option value="$PROJECT_DIR$/templates/book_table.html" />
         <option value="$PROJECT_DIR$/Badil/settings.py" />
-        <option value="$PROJECT_DIR$/Todo.txt" />
         <option value="$PROJECT_DIR$/Badil/urls.py" />
+        <option value="$PROJECT_DIR$/book/admin.py" />
+        <option value="$PROJECT_DIR$/book/models.py" />
+        <option value="$PROJECT_DIR$/Todo.txt" />
         <option value="$PROJECT_DIR$/book/views.py" />
       </list>
     </option>
@@ -189,6 +194,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Matab" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -287,9 +293,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,6 +314,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -383,15 +389,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23778501" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23701298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -399,6 +404,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -422,6 +428,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="25" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="44" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Badil/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="76" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="44" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="69" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Badil/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="76" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="78" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Badil/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="35" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -452,17 +556,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Badil/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="14" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,58 +626,48 @@
         <state line="10" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.38154614" vertical-offset="0" max-vertical-offset="401" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/admin.py">
+    <entry file="file://$PROJECT_DIR$/Badil/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state line="72" column="61" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.53846157" vertical-offset="986" max-vertical-offset="2703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.24401914" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="78" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Badil/settings.py">
+    <entry file="file://$PROJECT_DIR$/book/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="61" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.53846157" vertical-offset="986" max-vertical-offset="2703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Badil/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.2451923" vertical-offset="0" max-vertical-offset="416">
+        <state line="20" column="17" selection-start="789" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#26#62#0" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.22972973" vertical-offset="0" max-vertical-offset="544">
+          <folding />
         </state>
       </provider>
     </entry>

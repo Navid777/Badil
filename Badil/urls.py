@@ -16,5 +16,8 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
      url(r'^admin/', include(admin.site.urls)),
      url(r'^unpublished/$', unpublished),
-     url(r'^firstChar/$', booksByFirstCharachter),
+     url(u'^bookByFirstChar/(?P<first>\w{1})/$', booksByFirstCharacter),
+     url(u'^personByFirstChar/(?P<first>\w{1})/$', publishedPersonsByFirstCharacter),
+     url(r'^bookBySubject/(?P<id>\d{1})/$', booksBySubject),
+     url(r'^unpublishedBySubject/(?P<id>\d{1})/$', unpublishedBooksBySubject),
 )

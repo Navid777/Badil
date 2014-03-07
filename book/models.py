@@ -31,6 +31,10 @@ class Book(models.Model):
     def __unicode__(self):
         return self.title
 
-
-
-
+class News(models.Model):
+    title = models.CharField(max_length = 200)
+    miniDescription = models.CharField(max_length = 300)
+    description = models.CharField(max_length = 1000)
+    picture = models.FileField(upload_to = 'media/', null = True, blank = True)
+    def __unicode__(self):
+        return self.title
