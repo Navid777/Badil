@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'badilweb';
+	src:url('/media/fonts/badilweb.eot?1mjd29');
+	src:url('/media/fonts/badilweb.eot?#iefix1mjd29') format('embedded-opentype'),
+		url('/media/fonts/badilweb.woff?1mjd29') format('woff'),
+		url('/media/fonts/badilweb.ttf?1mjd29') format('truetype'),
+		url('/media/fonts/badilweb.svg?1mjd29#badilweb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon, [class^="icon-"], [class*=" icon-"] {
+	font-family: 'badilweb';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+	content: "\e600";
+}
+.icon-shop:before {
+	content: "\e601";
+}
+.icon-search:before {
+	content: "\e602";
+}
+.icon-rss:before {
+	content: "\e603";
+}
+.icon-phone:before {
+	content: "\e604";
+}
+.icon-onvan-padid:before {
+	content: "\e605";
+}
+.icon-onvan-montasher:before {
+	content: "\e606";
+}
+.icon-onvan-ketab:before {
+	content: "\e607";
+}
+.icon-onvan-hedie:before {
+	content: "\e608";
+}
+.icon-onvan-akhbar:before {
+	content: "\e609";
+}
+.icon-mail:before {
+	content: "\e60a";
+}
+.icon-line:before {
+	content: "\e60b";
+}
+.icon-home:before {
+	content: "\e60c";
+}
+.icon-hedie:before {
+	content: "\e60d";
+}
+.icon-gplus:before {
+	content: "\e60e";
+}
+.icon-facebook:before {
+	content: "\e60f";
+}
+.icon-download:before {
+	content: "\e610";
+}
+.icon-arrow:before {
+	content: "\e611";
+}
+.icon-alphabet-32:before {
+	content: "\6cc";
+}
+.icon-alphabet-31:before {
+	content: "\647";
+}
+.icon-alphabet-30:before {
+	content: "\648";
+}
+.icon-alphabet-29:before {
+	content: "\646";
+}
+.icon-alphabet-28:before {
+	content: "\645";
+}
+.icon-alphabet-27:before {
+	content: "\644";
+}
+.icon-alphabet-26:before {
+	content: "\6af";
+}
+.icon-alphabet-25:before {
+	content: "\6a9";
+}
+.icon-alphabet-24:before {
+	content: "\642";
+}
+.icon-alphabet-23:before {
+	content: "\641";
+}
+.icon-alphabet-22:before {
+	content: "\63a";
+}
+.icon-alphabet-21:before {
+	content: "\639";
+}
+.icon-alphabet-20:before {
+	content: "\638";
+}
+.icon-alphabet-19:before {
+	content: "\637";
+}
+.icon-alphabet-18:before {
+	content: "\636";
+}
+.icon-alphabet-17:before {
+	content: "\635";
+}
+.icon-alphabet-16:before {
+	content: "\634";
+}
+.icon-alphabet-15:before {
+	content: "\633";
+}
+.icon-alphabet-14:before {
+	content: "\698";
+}
+.icon-alphabet-13:before {
+	content: "\632";
+}
+.icon-alphabet-12:before {
+	content: "\631";
+}
+.icon-alphabet-11:before {
+	content: "\630";
+}
+.icon-alphabet-10:before {
+	content: "\62f";
+}
+.icon-alphabet-09:before {
+	content: "\62e";
+}
+.icon-alphabet-08:before {
+	content: "\62d";
+}
+.icon-alphabet-07:before {
+	content: "\686";
+}
+.icon-alphabet-06:before {
+	content: "\62c";
+}
+.icon-alphabet-05:before {
+	content: "\62b";
+}
+.icon-alphabet-04:before {
+	content: "\62a";
+}
+.icon-alphabet-03:before {
+	content: "\67e";
+}
+.icon-alphabet-02:before {
+	content: "\628";
+}
+.icon-alphabet-01:before {
+	content: "\627";
+}

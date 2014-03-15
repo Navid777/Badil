@@ -6,6 +6,15 @@ from django.db.models import Q
 from django.shortcuts import render
 
 
+def home(request):
+    return render(request, 'home.html', {})
+
+
+def gift():
+    pass
+def books():
+    pass
+
 def unpublished(request):
     #TODO
     unpublished_books = Book.objects.filter(isPublished=False)

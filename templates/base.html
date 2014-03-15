@@ -3,12 +3,33 @@
 <head>
     <title>badil</title>
     <link rel="stylesheet" href="{{MEDIA_URL}}css/style.css" />
+    <link rel="stylesheet" href="{{MEDIA_URL}}css/fonts.css" />
+    <script type="text/javascript" src="{{MEDIA_URL}}js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="{{MEDIA_URL}}js/search.js"></script>
 </head>
 <body>
     <div id="container">
+        <img class="logo" src="{{ MEDIA_URL }}images/logo.png" />
         <div id="top-header"></div>
-        <div id="search-bar"></div>
-        <div id="menu-bar"></div>
+        <div id="search-bar">
+            <div id="search-input">
+                <div id="search"><i class="icon-search"></i></div>
+                <div id="searchbox" contenteditable="true"></div>
+            </div>
+        </div>
+        <div id="menu-bar">
+            <ul id="top-menu">
+                <li><a href="#">صفحه‌ی اصلی</a></li>
+                <li><a href="#">کتاب‌ها</a></li>
+                <li><a href="#">پدیدآورنده‌گان</a></li>
+                <li><a href="#">منتشر می‌شود</a></li>
+                <li><a href="#">اخبار</a></li>
+                <li><a href="#">هدیه</a></li>
+                <li><a href="#">سبد ِ خرید</a></li>
+                <li><a href="#">درباره‌ی ما</a></li>
+                <li><a href="#">ارتباط با ما</a></li>
+            </ul>
+        </div>
         <div id="content">
             <div id="footer"></div>
         </div>

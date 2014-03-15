@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from book.views import *
+import book.views as book
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -18,13 +18,12 @@ urlpatterns = patterns('',
 
                        # Uncomment the next line to enable the admin:
                        url(r'^admin/', include(admin.site.urls)),
-                       url(r'^unpublished/$', unpublished),
-                       url(u'^bookByFirstChar/(?P<first>\w{1})/$', books_by_first_character),
-                       url(u'^personByFirstChar/(?P<first>\w{1})/$', published_persons_by_first_character),
-                       url(r'^bookBySubject/(?P<id>\d{1})/$', books_by_subject),
-                       url(r'^unpublishedBySubject/(?P<id>\d{1})/$', unpublished_books_by_subject),
+                       url(u'^$', book.home),
+                       url(u'^gift/$', book.gift),
+                       url(u'^books/$', book.books),
+                       url(u'^books/(?P<q>\w)/$', book.books),
+                       url(u'^books/(?P<id>\d+)/$', book.books),
 )
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
