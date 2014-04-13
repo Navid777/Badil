@@ -1,10 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
     background: white;
     font-family: tahoma, sans-serif;
     direction: rtl;
+}
+
+div.clear {
+    clear: both;
 }
 
 a {
@@ -14,37 +17,43 @@ a {
 }
 
 body {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 
-div#container {
-    position: relative;
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
+div#header {
+    position: fixed;
+    z-index: 100;
+    height: 176px;
+    width: 100%;
+    top: 0;
+    border-bottom: 20px solid white;
 }
 
 div#top-header {
-    height: 140px;
+    height: 120px;
+    width: 100%;
     background: #1E0F44;
 }
 
 div#search-bar {
     height: 27px;
-    padding: 4px 0;
-    background: url('/media/images/point.png') repeat-x scroll 0 4px #820F19;
+    width: 100%;
+    padding: 2px 0;
+    background: url('/media/images/point.png') repeat-x scroll 0 2px #820F19;
 }
 
 div#search-input {
     float: left;
     margin-left: 20px;
-    color: gray; //TODO: change color
+    color: gray;
+    /* TODO: change color */
 }
 
 div#search-input.active {
     box-shadow: inset 0 0 0 1px white;
-    color: white; //TODO : change color
+    color: white;
+    /* TODO : change color */
 }
 
 div#searchbox {
@@ -58,7 +67,7 @@ div#searchbox {
     padding: 2px 10px;
     font-size: 17px;
     transition: 300ms all linear;
-    //TODO: add -webkit- and shit
+    /* TODO: add -webkit- and shit */
 }
 
 div#search-input.active div#searchbox {
@@ -79,57 +88,156 @@ div#search {
 
 div#menu-bar {
     height: 25px;
+    width: 100%;
     background: #1E0F44;
 }
 
-div#content {
-    background: white;
-    padding-bottom: 60px;
-}
-
 div#footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     background: #1E0F44;
     height: 60px;
+    text-align: center;
+    border-top: 20px solid white;
 }
 
 img.logo {
     float: right;
     margin-right: 20px;
     margin-top: 15px;
-    width: 95px;
-    height: 150px;
+    width: 83px;
+    height: 131px;
 }
 
-ul#top-menu {
+div#top-menu-container {
+    margin: 0 20px;
+    padding-top: 3px;
+}
+
+#top-menu {
     font-size: 13px;
     font-weight: bold;
-    color: gray; //TODO: change color
-    list-style: none;
-    margin: 0 20px 0 0;
-    padding: 5px 0 0;
+    color: gray;
+    /* TODO: change color */
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
-ul#top-menu li {
-    padding: 0;
-    display: block;
-    float: right;
-    width: 100px;
+#top-menu td {
     text-align: center;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray; //TODO: change color
-}
-
-ul#top-menu li:first-child {
     border-right: 2px solid gray;
-}
-ul#top-menu li:last-child {
     border-left: 2px solid gray;
+    /* TODO: change color */
 }
 
-ul#top-menu li:hover {
+#top-menu td:hover {
     color: white;
     border-color: white;
+}
+
+#top-menu a {
+    display: block;
+}
+
+div#side-menu {
+    position: fixed;
+    right: 20px;
+    top: 196px;
+    width: 100px;
+}
+
+#side-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+#side-menu ul li {
+    display: block;
+    width: 97px;
+    text-align: right;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 5px;
+    padding: 0 3px 0 0;
+    color: white;
+    background-color: #1E0F44;
+}
+
+#top-menu li a, #side-menu li a {
+    display: block;
+    width: 100%;
+}
+
+#footer-icons {
+    /* TODO: change color */
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 8px 0;
+}
+
+#footer-icons a {
+    color: gray;
+    padding: 0 4px;
+    margin: 0;
+}
+
+#footer-content {
+    margin-right: 140px;
+}
+
+#footer-icons a:hover {
+    color: white;
+}
+
+div#content {
+    background: white;
+    overflow: hidden;
+    margin: 196px 140px 20px 20px;
+}
+
+div#outlet {
+    overflow: auto;
+    width: 100%;
+}
+
+div#home-content {
+    background-color: #828282;
+    width: 100%;
+}
+
+div.home-book {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+div.home-book img {
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+}
+
+div.home-book-desc {
+    position: absolute;
+    bottom: 20px;
+    right: 340px;
+    font-size: 80%;
+}
+
+div.home-book-ribbon {
+    background-color: rgba(30, 15, 70, 0.8);
+    position: absolute;
+    bottom: 195px;
+    right: 20px;
+    width: 300px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
 }
