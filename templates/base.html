@@ -10,12 +10,15 @@
 <body>
     <div id="header">
         <img class="logo" src="{{ MEDIA_URL }}images/logo.png" />
-        <div id="top-header"></div>
+        <div id="top-header">
+        </div>
         <div id="search-bar">
             {# TODO: enter on search box goes down! #}
             <div id="search-input">
-                <div id="search"><i class="icon-search"></i></div>
-                <div id="searchbox" contenteditable="true"></div>
+                <div id="search"><i class="icon-search">
+                </i></div>
+                <div id="searchbox" contenteditable="true">
+                </div>
             </div>
         </div>
         <div id="menu-bar">
@@ -47,6 +50,8 @@
         <div id="outlet">
             {% block content %}{% endblock %}
         </div>
+        <div id="content">
+            <div id="footer">
     </div>
     <div id="footer">
         <div id="footer-content">
