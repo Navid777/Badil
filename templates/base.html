@@ -8,30 +8,56 @@
     <script type="text/javascript" src="{{MEDIA_URL}}js/search.js"></script>
 </head>
 <body>
-    <div id="container">
+    <div id="header">
         <img class="logo" src="{{ MEDIA_URL }}images/logo.png" />
         <div id="top-header"></div>
         <div id="search-bar">
+            {# TODO: enter on search box goes down! #}
             <div id="search-input">
                 <div id="search"><i class="icon-search"></i></div>
                 <div id="searchbox" contenteditable="true"></div>
             </div>
         </div>
         <div id="menu-bar">
-            <ul id="top-menu">
-                <li><a href="#">صفحه‌ی اصلی</a></li>
-                <li><a href="#">کتاب‌ها</a></li>
-                <li><a href="#">پدیدآورنده‌گان</a></li>
-                <li><a href="#">منتشر می‌شود</a></li>
-                <li><a href="#">اخبار</a></li>
-                <li><a href="#">هدیه</a></li>
-                <li><a href="#">سبد ِ خرید</a></li>
-                <li><a href="#">درباره‌ی ما</a></li>
-                <li><a href="#">ارتباط با ما</a></li>
-            </ul>
+            <div id="top-menu-container">
+                {# TODO: change to ul #}
+                <table id="top-menu"><tbody><tr>
+                    <td><a href="#">صفحه‌ی اصلی</a></td>
+                    <td><a href="#">کتاب‌ها</a></td>
+                    <td><a href="#">پدیدآورنده‌گان</a></td>
+                    <td><a href="#">منتشر می‌شود</a></td>
+                    <td><a href="#">اخبار</a></td>
+                    <td><a href="#">هدیه</a></td>
+                    <td><a href="#">سبد ِ خرید</a></td>
+                    <td><a href="#">درباره‌ی ما</a></td>
+                    <td><a href="#">ارتباط با ما</a></td>
+                </tr></tbody></table>
+            </div>
         </div>
-        <div id="content">
-            <div id="footer"></div>
+    </div>
+    <div id="side-menu">
+        <ul>
+            <li><a href="#">ورود</a></li>
+            <li><a href="#">ثبت‌نام</a></li>
+            <li><a href="#">پیوندها</a></li>
+            <li><a href="#">دسته‌بندی ِ موضوعی</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="outlet">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-content">
+            <div id="footer-icons">
+                <a class="icon-mail" href="#"></a>
+                <a class="icon-phone" href="#"></a>
+                <a class="icon-download" href="#"></a>
+                <a class="icon-hedie" href="#"></a>
+                <a class="icon-shop" href="#"></a>
+                <a class="icon-home" href="#"></a>
+            </div>
         </div>
     </div>
 </body>
