@@ -4,38 +4,35 @@
     <title>badil</title>
     <link rel="stylesheet" href="{{MEDIA_URL}}css/style.css" />
     <link rel="stylesheet" href="{{MEDIA_URL}}css/fonts.css" />
+    {% block extrastyle %}{% endblock %}
     <script type="text/javascript" src="{{MEDIA_URL}}js/jquery-2.1.0.min.js"></script>
-    <script type="text/javascript" src="{{MEDIA_URL}}js/search.js"></script>
+    <script type="text/javascript" src="{{ MEDIA_URL }}js/style.js"></script>
+    {% block extraheaderjs %}{% endblock %}
 </head>
 <body>
-    <div id="header">
-        <img class="logo" src="{{ MEDIA_URL }}images/logo.png" />
-        <div id="top-header">
-        </div>
-        <div id="search-bar">
-            {# TODO: enter on search box goes down! #}
-            <div id="search-input">
-                <div id="search"><i class="icon-search">
-                </i></div>
-                <div id="searchbox" contenteditable="true">
-                </div>
-            </div>
-        </div>
-        <div id="menu-bar">
-            <div id="top-menu-container">
-                {# TODO: change to ul #}
-                <table id="top-menu"><tbody><tr>
-                    <td><a href="#">صفحه‌ی اصلی</a></td>
-                    <td><a href="#">کتاب‌ها</a></td>
-                    <td><a href="#">پدیدآورنده‌گان</a></td>
-                    <td><a href="#">منتشر می‌شود</a></td>
-                    <td><a href="#">اخبار</a></td>
-                    <td><a href="#">هدیه</a></td>
-                    <td><a href="#">سبد ِ خرید</a></td>
-                    <td><a href="#">درباره‌ی ما</a></td>
-                    <td><a href="#">ارتباط با ما</a></td>
-                </tr></tbody></table>
-            </div>
+<div id="allcontent">
+    <img class="logo" src="{{ MEDIA_URL }}images/logo.png" />
+    <div id="top-header">
+    </div>
+    <div id="search-bar">
+        {# TODO: enter on search box goes down! #}
+        <div id="search-button"><i class="icon-search"></i></div>
+        <input id="search-input" contenteditable="true"/>
+    </div>
+    <div id="menu-bar">
+        <div id="top-menu-container">
+            {# TODO: change to ul #}
+            <table id="top-menu"><tbody><tr>
+                <td><a href="#">صفحه‌ی اصلی</a></td>
+                <td><a href="#">کتاب‌ها</a></td>
+                <td><a href="#">پدیدآورنده‌گان</a></td>
+                <td><a href="#">منتشر می‌شود</a></td>
+                <td><a href="#">اخبار</a></td>
+                <td><a href="#">هدیه</a></td>
+                <td><a href="#">سبد ِ خرید</a></td>
+                <td><a href="#">درباره‌ی ما</a></td>
+                <td><a href="#">ارتباط با ما</a></td>
+            </tr></tbody></table>
         </div>
     </div>
     <div id="side-menu">
@@ -50,8 +47,6 @@
         <div id="outlet">
             {% block content %}{% endblock %}
         </div>
-        <div id="content">
-            <div id="footer">
     </div>
     <div id="footer">
         <div id="footer-content">
@@ -65,5 +60,6 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

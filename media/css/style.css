@@ -6,6 +6,10 @@ html, body {
     direction: rtl;
 }
 
+div#allcontent {
+    display: none;
+}
+
 div.clear {
     clear: both;
 }
@@ -21,90 +25,48 @@ body {
     margin: 0 auto;
 }
 
-div#header {
+img.logo {
     position: fixed;
-    z-index: 100;
-    height: 27.8%;
-    width: 100%;
-    top: 0;
+    float: right;
+    z-index: 101;
 }
 
 div#top-header {
-    height: 70.6%;
     width: 100%;
     background: #1E0F44;
+    position: fixed;
 }
 
 div#search-bar {
-    height: 17.5%;
-    width: 100%;;
-    background: url('/media/images/point.png') repeat-x scroll 0 0 #820F19;
+    position: fixed;
+    width: 100%;
+    background: url('/media/images/point.png') repeat-x scroll 0 0 / contain #820F19;
 }
 
-div#search-input {
-    float: left;
-    margin-left: 20px;
+#search-input {
     color: gray;
-    /* TODO: change color */
-}
-
-div#search-input.active {
-    box-shadow: inset 0 0 0 1px white;
-    color: white;
-    /* TODO : change color */
-}
-
-div#searchbox {
+    position: fixed;
     background-color: #1E0F44;
+    transition: 300ms all linear;
     outline: none;
     border: none;
     margin: 0;
-    float: left;
-    width: 79px;
-    height: 23px;
-    padding: 2px 10px;
-    font-size: 17px;
-    transition: 300ms all linear;
+    padding: 0;
     /* TODO: add -webkit- and shit */
 }
 
-div#search-input.active div#searchbox {
-    width: 179px;
-}
-
-div#search {
-    background-color: #1E0F44;
-    float: left;
-    outline: none;
-    border: none;
-    margin: 0;
-    height: 11.9%;
-    font-size: 21px;
-    padding: 2px;
-    cursor: pointer;
-}
-
-div#menu-bar {
-    height: 25px;
-    width: 100%;
-    background: #1E0F44;
-}
-
-div#footer {
+#search-button {
     position: fixed;
-    width: 100%;
-    bottom: 0;
-    background: #1E0F44;
-    height: 8%;
+    color: gray;
+    background-color: #1E0F44;
+    cursor: pointer;
     text-align: center;
 }
 
-img.logo {
-    float: right;
-    margin-right: 2.5%;
-    margin-top: 7%;
-    width: 10%;
-    height: 74%;
+div#menu-bar {
+    position: fixed;
+    width: 100%;
+    background: #1E0F44;
 }
 
 div#top-menu-container {
@@ -140,9 +102,6 @@ div#top-menu-container {
 
 div#side-menu {
     position: fixed;
-    right: 20px;
-    top: 196px;
-    width: 100px;
 }
 
 #side-menu ul {
@@ -154,7 +113,6 @@ div#side-menu {
 
 #side-menu ul li {
     display: block;
-    width: 97px;
     text-align: right;
     height: 25px;
     line-height: 25px;
@@ -167,6 +125,14 @@ div#side-menu {
 #top-menu li a, #side-menu li a {
     display: block;
     width: 100%;
+}
+
+div#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1E0F44;
+    text-align: center;
 }
 
 #footer-icons {
@@ -193,48 +159,12 @@ div#side-menu {
 }
 
 div#content {
+    position: fixed;
     background: white;
-    overflow: hidden;
-    margin: 196px 140px 20px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-div#outlet {
-    overflow: auto;
+div#outlet {;
     width: 100%;
-}
-
-div#home-content {
-    background-color: #828282;
-    width: 100%;
-}
-
-div.home-book {
-    width: 50%;
-    float: right;
-    position: relative;
-}
-
-div.home-book img {
-    height: 350px;
-    width: 300px;
-    margin: 20px;
-}
-
-div.home-book-desc {
-    position: absolute;
-    bottom: 20px;
-    right: 340px;
-    font-size: 80%;
-}
-
-div.home-book-ribbon {
-    background-color: rgba(30, 15, 70, 0.8);
-    position: absolute;
-    bottom: 195px;
-    right: 20px;
-    width: 300px;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 40px;
 }
