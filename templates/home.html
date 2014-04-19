@@ -1,9 +1,17 @@
 {% extends 'base.html' %}
 
+{% block extrastyle %}
+<link rel="stylesheet" href="{{ MEDIA_URL }}css/home.css" />
+{% endblock %}
+
+{% block extraheaderjs %}
+<script type="text/javascript" src="{{ MEDIA_URL }}js/home.js" ></script>
+{% endblock %}
+
 {% block content %}
 <div id="home-content">
     <div class="home-book">
-        <img src="{{ MEDIA_URL }}images/sooe.jpg"/>
+        <img class="book" src="{{ MEDIA_URL }}images/sooe.jpg"/>
         <div class="home-book-desc">
 سلام
             خوبی؟
@@ -20,7 +28,7 @@
         </div>
     </div>
     <div class="home-book">
-        <img src="{{ MEDIA_URL }}images/sooe.jpg"/>
+        <img class="book" src="{{ MEDIA_URL }}images/sooe.jpg"/>
         <div class="home-book-desc">
 سلام
             خوبی؟

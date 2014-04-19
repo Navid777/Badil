@@ -1,36 +1,39 @@
+var IS = {
+    width: 800,
+    height: 600,
+    headerH: 118,
+    searchbarH: 29,
+    searchinputH: 19,
+    searchinputW: 80,
+    searchinputL: 40,
+    searchinputT: 123,
+    searchbuttonH: 19,
+    searchbuttonW: 20,
+    searchbuttonL: 20,
+    searchbuttonT: 123,
+    menubarH: 20,
+    logoH: 123,
+    logoW: 78,
+    logoT: 12,
+    logoR: 20,
+    sidemenuW: 78,
+    sidemenuT: 187,
+    sidemenuR: 20,
+    footerH: 49,
+    footerB: 0,
+    footerContentMR: 138,
+    contentH: 344,
+    contentW: 659,
+    contentR: 118,
+    contentT: 187
+};
+
+//TODO: use r_ = Math.round to round the pixel
+
 var updateUI = function() {
-    var IS = {
-        width: 800,
-        height: 600,
-        headerH: 118,
-        searchbarH: 29,
-        searchinputH: 19,
-        searchinputW: 80,
-        searchinputL: 40,
-        searchinputT: 123,
-        searchbuttonH: 19,
-        searchbuttonW: 20,
-        searchbuttonL: 20,
-        searchbuttonT: 123,
-        menubarH: 20,
-        logoH: 123,
-        logoW: 78,
-        logoT: 12,
-        logoR: 20,
-        sidemenuW: 78,
-        sidemenuT: 187,
-        sidemenuR: 20,
-        footerH: 49,
-        footerB: 0,
-        footerContentMR: 138,
-        contentH: 344,
-        contentW: 659,
-        contentR: 138,
-        contentT: 187
-    }
     var $body = $(document);
-    var width = $body.width();
-    var height = $body.height();
+    var width = Math.max($body.width(), 800);
+    var height = Math.max($body.height(), 600);
     var $img = $("img.logo");
     var $topHeader = $("#top-header");
     var $searchBar = $("#search-bar");
