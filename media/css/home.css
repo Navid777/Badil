@@ -22,5 +22,12 @@
 .home-book .home-book-ribbon {
     position: absolute;
     /* TODO: color */
-    background-color: blue;
+    background-color: rgba(30, 15, 70, 0.8);
+    z-index: 101;
+    color: white;
+    padding: 20px;
+}
+
+.home-book .home-book-title {
+    font-size: 130%;
 }

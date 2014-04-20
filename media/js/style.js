@@ -45,7 +45,7 @@ var updateUI = function() {
     var $footerContent = $("#footer-content");
     var $content = $("#content");
     $img.height(IS.logoH*height/IS.height)
-        .width(IS.logoW*width/IS.width)
+      //  .width(IS.logoW*width/IS.width)
         .css('top', IS.logoT*height/IS.height)
         .css('right', IS.logoR*width/IS.width);
     $topHeader.height(IS.headerH*height/IS.height)

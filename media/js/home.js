@@ -9,6 +9,7 @@ var updateHomeUI = function() {
     var $homeBookArray = $(".home-book");
     var $homeBookImageArray = $homeBookArray.find("img.book");
     var $homeBookDescArray = $homeBookArray.find(".home-book-desc");
+    var $homeBookRibbonArray = $homeBookArray.find(".home-book-ribbon");
     $homeBookArray.width(width/2-40*docWidth/IS.width)
         .css('padding-left', 20*docWidth/IS.width)
         .css('padding-right', 20*docWidth/IS.width)
@@ -19,6 +20,9 @@ var updateHomeUI = function() {
         .css('box-shadow', 5*docWidth/IS.width + 'px ' + 5*docHeight/IS.height + 'px 0px 0px darkslategray');
     $homeBookDescArray.css('bottom', 20*docHeight/IS.height)
         .css('right', $homeBookImageArray.width()+30*docWidth/IS.width);
+    $homeBookRibbonArray.width($homeBookImageArray.width()+5*docWidth/IS.width+20*docWidth/IS.width)
+        .css('right', 15*docWidth/IS.width)
+        .css('bottom', height/2);
 };
 
 $(document).ready(updateHomeUI);
