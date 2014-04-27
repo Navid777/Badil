@@ -9,41 +9,23 @@
 {% endblock %}
 
 {% block content %}
-<div id="home-content">
-    <div class="home-book">
-        <img class="book" src="{{ MEDIA_URL }}images/sooe.jpg"/>
+<div id="home-content" data-book-size="{{ books.count }}">
+    {% for b in books %}
+    <div class="home-book" id="home-book-{{ forloop.counter0 }}">
+        <img class="book" src="{{ b.picture.url }}"
+             data-width="{{ b.picture.width }}" data-height="{{ b.picture.height }}"/>
         <div class="home-book-desc">
-سلام
-            خوبی؟
-            <br/>
-            چه خبر؟ شمسینت
-            شسیم سمینت شس منت  شس منت سیش منت ش منتسی منت ش منتسی
-             شسیمنت مشنسیت منت تسیش میت شسمینتش منتسی منتسمی نشتسیش متمنتسی شسمنت
-            سیمشسنی تمنتس مت م تمنتسی منتسی منتسیم نت
+            {{ b.miniDescription }}
         </div>
         <div class="home-book-ribbon">
-            <div class="home-book-title">نوروزدرمانی</div>
+            <div class="home-book-title">{{ b.title }}</div>
             <br/>
-            <div class="home-book-author">ونداد جلیلی</div>
+            <div class="home-book-author">
+                {% for ba in b.authors.all %}{{ ba }}{% if not forloop.last %} - {% endif %}{% endfor %}
+            </div>
         </div>
     </div>
-    <div class="home-book">
-        <img class="book" src="{{ MEDIA_URL }}images/sooe.jpg"/>
-        <div class="home-book-desc">
-سلام
-            خوبی؟
-            <br/>
-            چه خبر؟ شمسینت
-            شسیم سمینت شس منت  شس منت سیش منت ش منتسی منت ش منتسی
-             شسیمنت مشنسیت منت تسیش میت شسمینتش منتسی منتسمی نشتسیش متمنتسی شسمنت
-            سیمشسنی تمنتس مت م تمنتسی منتسی منتسیم نت
-        </div>
-        <div class="home-book-ribbon">
-            <div class="home-book-title">سوءتفاهم‌نامه</div>
-            <br/>
-            <div class="home-book-author">ونداد جلیلی</div>
-        </div>
-    </div>
+    {% endfor %}
     <div class="clear"></div>
 </div>
 {% endblock %}

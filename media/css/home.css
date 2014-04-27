@@ -2,11 +2,11 @@
     /* TODO: color */
     background-color: gray;
     width: 100%;
+    position: relative;
 }
 
 .home-book {
-    float: right;
-    position: relative;
+    position: absolute;
 }
 
 .home-book img {

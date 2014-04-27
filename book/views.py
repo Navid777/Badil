@@ -7,7 +7,10 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'home.html', {})
+    books = Book.objects.all()
+    return render(request, 'home.html', {
+        'books': books,
+    })
 
 
 def gift():

@@ -68,7 +68,7 @@ var updateUI = function() {
         .css('top', IS.sidemenuT*height/IS.height);
     $footer.height(IS.footerH*height/IS.height);
     $footerContent.css('margin-right', IS.footerContentMR*width/IS.width);
-    $content.height(IS.contentH*height/IS.height)
+    $content.height($body.height()-(IS.headerH+IS.searchbarH+IS.menubarH+IS.footerH+40)*height/IS.height)
         .width(IS.contentW*width/IS.width)
         .css('right', IS.contentR*width/IS.width)
         .css('top', IS.contentT*height/IS.height);
